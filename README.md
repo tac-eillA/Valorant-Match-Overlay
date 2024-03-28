@@ -109,4 +109,4 @@ Feel free to develop your own overlay using the data received from the server.
 
 ## Credits
 
-The players' information retrieval method is inspired by the wonderful work done by [isaacKenyon's VRY](https://github.com/isaacKenyon/VALORANT-rank-yoinker), [colinhartigan's fork](https://github.com/colinhartigan/valorant-live-match-rank-grabber), and the groundwork done by [deepsidh9].
+The players' information retrieval method is inspired by the wonderful work done by [isaacKenyon's VRY](https://github.com/isaacKenyon/VALORANT-rank-yoinker), [colinhartigan's fork](https://github.com/colinhartigan/valorant-live-match-rank-grabber), and the groundwork done by [deepsidh9](https://github.com/deepsidh9).

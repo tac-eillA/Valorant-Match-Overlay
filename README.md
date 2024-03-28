@@ -11,6 +11,7 @@ An Overlay proof-of-concept Application for Valorant giving information in real-
 -  [1920x1080](https://github.com/tac-eillA/Valorant-Match-Overlay/tree/main)
     **REMOVED 1920x1200 support due to lack of use**
 - "Fill" Mode
+- **Multi monitor support does not appear to function at the moment and a hybrid igpu+dgpu setup will cause issues with CUDA processing**
 
 ## Disclaimer
 

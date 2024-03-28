@@ -30,9 +30,7 @@ This project is a proof-of-concept that gets you live details of a match and pop
 - Run the following command in the project's root directory (assuming you have cloned this repository) to install all other dependencies
 
 ```sh
-
 pip install -r requirements.txt
-
 ```
 
 ## Usage
@@ -42,16 +40,14 @@ pip install -r requirements.txt
 Change the working directory to ```app``` and run the following command to start the python server which will serve requests such as starting/stopping match processing and facilitate communication using Socket IO between different components (both the backend and the frontend).
 
 ```
-
 python app.py
-
 ```
 
 2. Open Overlay
 
 ##### Using the Overlay in streaming apps
 
-For using the overlay with OBS, add a "BrowserSource" and navigate to the ```overlay``` directly and open ```index.html``` . Set the width and height to 1920 and 1080/1200 (whichever resolution you are using) respectively (currently supported for this resolution only, explained further below) It should show dummy data for two teams.
+For using the overlay with OBS, add a "BrowserSource" and navigate to the ```overlay``` directly and open ```index.html``` . Set the width and height to 1920 and 1080. It should show dummy data for two teams. If you are using vMix, add a "Browser" input and type the hard file path to ```index.html``` in the url window. Set your height and width just as with OBS and you will receive the same dummy data.
 
 3. Instruct server to start match processing
 

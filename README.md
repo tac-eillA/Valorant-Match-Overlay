@@ -91,18 +91,6 @@ The provided overlay files are a crude proof of concept of a working overlay.
 
 Feel free to develop your own overlay using the data received from the server.
 
-## How can I make it work for other resolutions?
-
-For now the values for [1920x1080](https://github.com/tac-eillA/Valorant-Match-Overlay/tree/main) or [1920x1200](https://github.com/deepsidh9/Live-Valorant-Overlay/) are hardcoded.
-
-- The template images are also applied directed using template matching **BUT** can be resized using relative measurements to the desired resolution.
-
-- The template images should be easy, accurate enough to scale down but I cannot account for the results when they are scaled up.
-
-- You can make your own templates too for a specific resolution if you wish.
-
-You can compare both the branches to see what changes have to be made in order to make it work for other resolutions.
-
 ## Possible Future Updates
 
 - CREDS through OCR
